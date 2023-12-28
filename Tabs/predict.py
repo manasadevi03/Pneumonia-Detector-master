@@ -75,7 +75,7 @@ def app(df, X, y):
         # Print the output according to the prediction
         if (prediction == 1):
             st.warning("The person has risk of Aspiration Pneumonia")
-            st.info("Severity Level 1: This is a nominal pneumonia and gets cured easily.")
+            st.info("They are less prone.")
             st.success("Smell some Eucalyptus oil and inhale medicated vapour especially with clove oil")
 
         elif (prediction == 2):
