@@ -3,7 +3,7 @@
 # Import necessary modules
 import numpy as np
 import pandas as pd
-from sklearn.tree import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
 
 
